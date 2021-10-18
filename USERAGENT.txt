@@ -1,4 +1,4 @@
-mr_f={
+MR_FAGHP={
 'Host':'api.duniagames.co.id',
 'content-length':'50',
 'accept':'application/json, text/plain, */*',
@@ -18,10 +18,10 @@ mr_f={
 
 
 
-dark={
+subs_FAGHP={
 "phoneNumber":081313537943,
 "inquiryId":219424679
 }
 
 
-darko=requests.post('https://api.duniagames.co.id/api/transaction/v1/top-up/transaction/req-otp/',headers=mr_f,json=dark).text
+BLACK_SQUAD=requests.post('https://api.duniagames.co.id/api/transaction/v1/top-up/transaction/req-otp/',headers=MR_FAGHP,json=subs_FAGHP).text
